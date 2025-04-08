@@ -31,7 +31,7 @@ let jobs = [
   },
 
 ];
-//console.log(jobs);
+
 function App() {
   let [counter,setCounter] = useState(0);// default value of counter is 0
   const addValue = () => {
