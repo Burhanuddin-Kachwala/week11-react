@@ -29,8 +29,9 @@ let jobs = [
     title:"Employment",
     description: "This Employment offers great opprtunity to young adults who have a zest in Software Development",
   },
-];
 
+];
+//console.log(jobs);
 function App() {
   let [counter,setCounter] = useState(0);// default value of counter is 0
   const addValue = () => {
