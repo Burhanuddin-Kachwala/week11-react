@@ -52,7 +52,8 @@ function App() {
       <button onClick={decreaseValue}>Decrement</button>
     <div className='flex flex-wrap justify-center gap-3'>
       {jobs.map(job => (
-        <Card         
+        <Card
+          id={job.id}         
           title={job.title}
           description={job.description}
         />
