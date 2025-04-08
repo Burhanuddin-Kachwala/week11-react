@@ -1,7 +1,9 @@
 
 import './App.css'
 import { useState } from 'react'
-import One from './One.jsx'
+import Card from "./Components/Card.jsx";
+
+
 
 function App() {
   let [counter,setCounter] = useState(0);// default value of counter is 0
@@ -18,13 +20,19 @@ function App() {
 
   return (
     <>
-      <One />    
-      <h1>App Component</h1>
       <h3>Counter Value : {counter}</h3>
       <button onClick={addValue}>Increment</button>&nbsp;
       <button onClick={decreaseValue}>Decrement</button>
+      <Card
+        title="Internship"
+        description="This internship offers great opprtunity to young students who have a zest in laravel"
+      />
+      <Card
+        title="Apprenticeship"
+        description="This Apprenticeship offers great opprtunity to young adults who have a zest in MERN stack"
+      />
     </>
-  )
+  );
 }
 
 export default App
