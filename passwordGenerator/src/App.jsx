@@ -28,6 +28,7 @@ function App() {
     window.navigator.clipboard.writeText(password);
     passwordRef.current.select();
     // optional -- just shows notifcation
+    // eslint-disable-next-line no-undef
     var notyf = new Notyf();
     notyf.success("Copied to clipboard");
   }, [password]);
