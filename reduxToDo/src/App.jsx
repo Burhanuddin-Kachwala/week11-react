@@ -1,5 +1,5 @@
 
-import TodoHeading from './components/ToDoHeading';
+import TodoHeading from './components/TodoHeading';
 import TodoInput from './components/TodoInput';
 import TodoList from './components/todoList';
 
